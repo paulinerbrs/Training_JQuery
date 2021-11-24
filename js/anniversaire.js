@@ -15,5 +15,6 @@ $(function() {
         $("body").css("background-image", "url(" + imageUrl + ")");
         var audio = new Audio('sounds/fireworks.wav');
         audio.play();
+        $(this).confettiButton();
     })
 })
